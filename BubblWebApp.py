@@ -8,7 +8,7 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
 
-gmaps = googlemaps.Client(key='Add Your Key here')
+gmaps = googlemaps.Client(key='AIzaSyDqTFTsnEjbyFETZmcOwMdqBRRP2O4GqTY')
 
 # Geocoding an address
 geocode_result = gmaps.geocode('1600 Amphitheatre Parkway, Mountain View, CA')
